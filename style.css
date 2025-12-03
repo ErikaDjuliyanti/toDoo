@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: white;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background-color: #851bff;
+    color: white;
+    border-radius: 20px;
+    padding: 30px;
+    max-width: 500px;
+    width: 100%;
+}
+
+h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 25px;
+    font-weight: 600;
+}
+
+.input-group {
+    display: flex;
+    margin-bottom: 25px;
+    gap: 10px;
+}
+
+#inputTodo {
+    /* widht = 100px sama dengan flek 1 */
+    flex: 1; 
+    padding: 14px 16px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+#inputTodo:focus {
+    outline: none;
+    border-color: #d0adf9;
+}
+
+
+#btnTambah {
+    background-color: #d6c2ed;
+    color: white;
+    border: none;
+    font-size: 16px;
+    padding: 0 24px;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+#btnTambah:hover {
+    background-color: #c699f9;
+}
+
+#btnHapus {
+    background-color: #d6c2ed;
+    color: white;
+    border: none;
+    font-size: 16px;
+    padding: 0 24px;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+}
+
+#btnHapus:hover {
+    background-color: #c699f9;
+}
+
+#ListTodo {
+    list-style-type: none;
+}
+
+li {
+    background-color: #a67ad8;
+    padding: 18px;
+    font-size: 16px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s;
+    border-left: 4px solid white;
+
+}
+
+li:hover {
+    background-color: #d6c2ed;
+    transform: translateX(5px);
+}
+
+
+
